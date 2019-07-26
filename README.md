@@ -79,8 +79,8 @@ Create 3 page components to display data from 3 API endpoints:
   - [x] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
   - _Example API Endpoint: `https://rickandmortyapi.com/api/character/`_
   - [x] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
-  - [ ] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
-  - [ ] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
+  - [x] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
+  - [x] Use a styling or component library. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [ReactStrap](https://reactstrap.github.io), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)).
   - [ ] Before adding routing, check each component manually by importing into `App.js` and adding to JSX.
 
 > 💡**reminder:** `git commit -am 'Part 1 Completed'`
@@ -93,7 +93,7 @@ Add a Router to this application by using [React Router](https://reacttraining.c
 - [x] Declare your 3 routes with `<Route>` components for each component created above..
 - [x] Include `/characters`, `/locations` and `/episodes` routes.
 - [x] In your `App` component, add a [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic) that will use React Routers `NavLink` components to link to your different pages.
-- [ ] Make sure to use `<Link>` component instead of `<a>` elements.
+- [x] Make sure to use `<Link>` component instead of `<a>` elements.
 
 - [ ] **Make sure all tasks are complete:** Do a global search (Cmd-Shift-F in VS Code) for the string `TODO:`.
 
@@ -115,7 +115,7 @@ Add a search component to your pages.
 There's a range of difficulty included. 😈
 
 - [ ] Animate page transition and/or card loading.
-- [ ] Add [paging support](https://react.semantic-ui.com/addons/pagination/#types-pagination) (next/previous links).
+- [x] Add [paging support](https://react.semantic-ui.com/addons/pagination/#types-pagination) (next/previous links).
 - [ ] Add additional fields to search form. They are unique for each endpoint. See [**Available parameters**.](https://rickandmortyapi.com/documentation/#filter-characters), etc..
 - [ ] Add a [modal](https://react.semantic-ui.com/modules/modal/#variations-size) component view to show more details of each type of record. See if you can use a nested route for it.
 - [ ] Use the [GraphQL Endpoint](https://rickandmortyapi.com/documentation/#graphql) with multiple search fields.
