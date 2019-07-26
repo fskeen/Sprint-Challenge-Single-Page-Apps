@@ -38,3 +38,14 @@ header h1 {
   text-align: center;
 
 }
+
+.char-card {
+  border: 1px solid lightgrey;
+  border-radius: .23rem;
+  box-shadow: 2px 2px 3px lightgrey;
+  margin-bottom: 2rem;
+}
+
+.card-info {
+  margin: 1rem;
+}
